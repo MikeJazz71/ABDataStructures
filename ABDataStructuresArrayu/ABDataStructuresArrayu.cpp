@@ -1,11 +1,27 @@
 
 #include "ABArray.h"
+#include "LinkedList.h"; 
 using namespace std;
 
 
 int main()
 {
-	Array* arr1;
+	int A[] = { 5, 10, 20 , 30, 40};
+	LinkedList LL  = LinkedList(A, 5);
+	LL.SortedList(22); 
+
+	LL.Display();
+	
+	
+
+	
+	
+	
+
+
+
+
+	/*Array* arr1;
 	int ch, sz, x, index, num, ele; 
 	cout << "What is the Array size? \n";
 	cin >> sz;
@@ -67,6 +83,7 @@ int main()
 		
 	} while (ch < 6);
 
+	*/
 	return 0; 
 	
 	
